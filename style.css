@@ -148,9 +148,47 @@ span{
     color:red;
 }
 
+.plays{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.manhors>img{
+    width: 400px;
+    margin-left: 80px;
+    height: 400px;
+}
+.play{
+    width: 400px;
+    text-align: right;
 
 
+}
+.play>h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.play>p{
+    font-size: 15px;
+    padding: 10px;
+}
 
+.hors{
+    height: 500px;
+}
+.doll{
+    margin-top: -100px;
+    width: 200px;
+}
+.doll>img{
+    width: 150px;
+}
 
 
 
@@ -191,6 +229,19 @@ span{
         grid-template-columns: repeat(1, 1fr);
         display: 100%;
         margin-left: 60px;
+    }
+
+    .plays
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 1000px;
+    }
+    .doll{
+        margin-top: 30px;
+        margin-left: 200px;
+        margin-bottom: 100px;
+      
     }
     
 }
