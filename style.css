@@ -6,10 +6,11 @@
 }
     
    
-}
-.logo{
+
+.logoo{
     display: flex;
     align-items: center;
+    
 }
 .navbar{
     width: 80%;
@@ -43,21 +44,41 @@ span{
 .bar>li>a{
    
     text-decoration: none;
-    font-size: 10px;
+    font-size: 15px;
+    color: #000;
 }
 .follow{
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid gray;
+    width: 140px;
+    padding: 10px;
+    border-radius: 20px;
+
 }
-.follow>a{
+.follow:hover{
+    background-color: gray;
+    width: 140px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.follow>li{
+ list-style: none;
+}
+.follow>li>a{
     text-decoration: none;
-    font-size: 10px;
+    font-size: 15px;
+    color: black;
 }
+
 .banner{
     background-color: beige;
 }
 
 .banner1{
+    
     display: flex;
     width: 80%;
     justify-content:space-around;
@@ -67,6 +88,8 @@ span{
 }
 .left1{
     width: 500px;
+    
+  
 }
 .left1>h2{
     font-size: 50px;
@@ -126,6 +149,10 @@ span{
     align-items: center;
     margin-bottom: 20px;
     
+}
+.third:hover{
+    opacity: 1;
+    color-interpolation-filters: #000;
 }
 .first>img{
     margin-top: 5px;
@@ -226,23 +253,89 @@ span{
 }
 
 
+footer{
+    background-color: black;
+}
+.foot{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    height: 500px;
+    margin-top: 100px;
+    
+}
+.story, .tarms {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+.story>h1{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    font-weight: normal;
+}
+
+.tarms>h1{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    font-weight: normal;
+}
+
+.copy>p{
+    color: white;
+    font-size: 10px;
+}
+.log{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: center;
+}
+.log>h3{
+    color: white;
+    font-size: 30px;
+}
+
+.icon{
+   margin: 0px;
+}
+.icon>button{
+    margin-right: 10px;
+    width: 50px;
+    height: 40px;
+}
+
+
+
 
 @media screen and (max-width: 600px)  {
     .navbar,
-    .menu,
-    .logo
+    .menu
+    
     {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
         margin-left: 80px;
         margin-top: 10px;
     }
+    .logoo{
+        justify-content: center;
+        margin-right: 40px;
+    }
 .banner1{
+   
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     height: 600px;
+    justify-content: center;
 }
    
     .left1{
@@ -250,10 +343,13 @@ span{
         align-items: center;
     }
     .right1{
-        width: 70%;
+       
         align-items: center;
         text-align: center;
         margin: 0 auto;
+    }
+    .right1>img{
+        width: 70%;
     }
     .cards,
     .gamer
@@ -262,6 +358,7 @@ span{
         grid-template-columns: repeat(1, 1fr);
         display: 100%;
         margin-left: 60px;
+        justify-content: center;
     }
 
     .plays
@@ -304,6 +401,28 @@ span{
 
     .logo1:hover{
         border: 1px solid orange;
+    }
+    .foot{
+        margin-top: 50px;
+    }
+    .story
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 10px;
+    }
+    .story>h1{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .tarms{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 5px;
+    }
+    .tarms>h1{
+        font-size: 15px;
+        font-weight: normal;
     }
 
     
