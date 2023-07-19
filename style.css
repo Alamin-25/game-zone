@@ -326,7 +326,7 @@ footer{
     }
     .logoo{
         justify-content: center;
-        margin-right: 40px;
+       
     }
 .banner1{
    
@@ -381,22 +381,15 @@ footer{
     {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-        
-       
-
     }
-    .upper{
-        margin-left: 150px;
-    }
-    .down{
-        margin-left: 150px;
-    }
+    
     .logos{
         margin-top: 400px;
     }
     .logo1{
         width: 150px;
+        justify-content: center;
+        align-items: center;
     }
 
     .logo1:hover{
@@ -404,6 +397,7 @@ footer{
     }
     .foot{
         margin-top: 50px;
+        padding-bottom: 50px;
     }
     .story
     {
