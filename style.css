@@ -4,9 +4,8 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
     
-    margin: 0 auto;
+   
 }
 .logo{
     display: flex;
@@ -108,7 +107,46 @@ span{
     background-color: rgb(50, 184, 247) ;
 }
 
-
+.cards{
+   width: 80%;
+   margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+    height: 500px;
+}
+.gamer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.card1{
+    width: 200px;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.first>img{
+    margin-top: 5px;
+}
+.card1>p{
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: left;
+}
+.cimg{
+    width: 200px;
+    height: 250px;
+}
+.cimg:hover{
+    border: 3px solid palevioletred;
+    border-radius: 20px;
+    
+}
+.first:hover{
+    color:red;
+}
 
 
 
@@ -119,40 +157,40 @@ span{
 
 
 @media screen and (max-width: 600px)  {
-    
     .navbar,
-    .menu
+    .menu,
+    .logo
     {
-        width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        
-        margin-bottom: 0px;
-        padding: 0px;
-        margin-top: 50px;
-    
+        margin-left: 80px;
+        margin-top: 10px;
     }
 .banner1{
-    width: 100%;
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
-    margin-left: 0px;
     height: 600px;
 }
-    .right1{
-        height: 100%;
-        width: 80%;
-        align-items: center;
-        margin-left: 0px;
-        text-align: center;
-    }
-
+   
     .left1{
         text-align: center;
         align-items: center;
-    
+    }
+    .right1{
+        width: 70%;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .cards,
+    .gamer
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        display: 100%;
+        margin-left: 60px;
     }
     
 }
