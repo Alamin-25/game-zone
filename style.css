@@ -190,7 +190,40 @@ span{
     width: 150px;
 }
 
+.logos{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
+}
+.logo1>h6{
+    color: orange;
+}
+
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+.logo1:hover{
+    border:1px solid orange;
+    padding: 8px;
+    border-radius: 50px;
+   
+}
 
 
 
@@ -243,5 +276,35 @@ span{
         margin-bottom: 100px;
       
     }
+
+    .logos,
+    .upper,
+    .down
+    
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        
+       
+
+    }
+    .upper{
+        margin-left: 150px;
+    }
+    .down{
+        margin-left: 150px;
+    }
+    .logos{
+        margin-top: 400px;
+    }
+    .logo1{
+        width: 150px;
+    }
+
+    .logo1:hover{
+        border: 1px solid orange;
+    }
+
     
 }
